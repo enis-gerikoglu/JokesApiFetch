@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: grey;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightpink ;
+    text-align: center;
+    padding: 100px 80px;
+    width: 400px;
+    gap: 60px;
+    border-radius: 20px;
+}
+.btn{
+    outline: none;
+    border: none;
+    background-color: chartreuse;
+    border-radius: 50px;
+    padding: 10px;
+    height: 40px;
+}
+.btn:active{
+    transform: scale(0.98);
+}
